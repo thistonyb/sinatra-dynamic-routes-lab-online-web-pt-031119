@@ -17,7 +17,6 @@ class App < Sinatra::Base
     repeat = ""
     @number.times {repeat << @phrase+"\n"}
     repeat
-    end
   end
 
 
